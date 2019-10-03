@@ -3,7 +3,7 @@ error_reporting (E_ALL & ~ E_NOTICE & ~ E_DEPRECATED);
 
 $host = "localhost";
 $user = "root";
-$pass = "1597";
+$pass = "";
 $database ="saldo_volante";
 $connection = mysql_connect($host,$user,$pass,$database) or die (mysql_error());
 mysql_select_db($database)or die (mysql_error());
